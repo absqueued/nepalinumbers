@@ -18,8 +18,5 @@ After this 'NepaliDates' object will be available for you to use. Example:
 		//Expected output: **२०७२ असोज ८ शुक्रबार**
 	</script>
 
-TODO:
+### TODO:
 Write more comprehensive doc with examples.
-
-##License
-This utility is licensed under MIT.
