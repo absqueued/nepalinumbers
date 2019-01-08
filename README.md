@@ -1,10 +1,9 @@
-# Nepali Date Converter
+# nepalinumbers
 This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.
 
 ## How to use
-Add `NepaliCalendar.js` script to your HTML Page.
 
-    <script src="NepaliDateConverter/NepaliCalendar.js"></script>
+`import nepalinumbers from 'nepalinumbers'`;
 
 After this 'NepaliDates' object will be available for you to use. Example:
 
@@ -17,6 +16,3 @@ After this 'NepaliDates' object will be available for you to use. Example:
 		console.log(nepYear, nepMonth, nepDay, nepWeek);
 		//Expected output: **२०७२ असोज ८ शुक्रबार**
 	</script>
-
-### TODO:
-Write more comprehensive doc with examples.

@@ -1,0 +1,25 @@
+{
+  "name": "nepalinumbers",
+  "version": "1.0.0",
+  "description": "This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhardesigner/nepalinumbers.git"
+  },
+  "keywords": [
+    "nepali",
+    "numbers",
+    "number conversion",
+    "nepali date conversion"
+  ],
+  "author": "Shekhar K. Sharma <itsmes.sh@gmail.com> (http://www.shekhardesigner.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekhardesigner/nepalinumbers/issues"
+  },
+  "homepage": "https://github.com/shekhardesigner/nepalinumbers#readme"
+}
