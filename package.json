@@ -1,10 +1,14 @@
 {
-  "name": "nepalinumbers",
-  "version": "1.0.0",
+  "name": "@shekhardesigner/nepalinumbers",
+  "version": "0.1.0",
   "description": "This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=4.0.0"
   },
   "repository": {
     "type": "git",
