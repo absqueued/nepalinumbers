@@ -41,9 +41,9 @@ Browser version of minified JS is coming soon!
 ## Methods
 | Method | Options | Description  |
 |---|---|---|
-| year | n/a|Transforms/Converts 4 digit year to Nepali unicode  |
-| month | 'all' or Integer | Translate/Converts month name to Nepali unicode |
-| week | 'all or Integer | Translate/Converts week name to Nepali unicode |
+| year | n/a |Transforms/Converts 4 digit year to Nepali unicode  |
+| month | 'all' or Integer | Translate/Converts month number to Nepali unicode |
+| week | 'all' or Integer | Translate/Converts week number to Nepali unicode |
 | number | n/a | Transforms/Converts numbers to Nepali unicode |
 
 ## Examples
