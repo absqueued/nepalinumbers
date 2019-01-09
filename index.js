@@ -8,8 +8,9 @@
  */
 
 import neYear from './src/neYear';
-import neMonth from './src/neWeek';
+import neMonth from './src/neMonth';
 import neWeek from './src/neWeek';
+import neNumber from './src/neNumber';
 
 class NepaliNumbers {
     constructor() {
@@ -29,8 +30,7 @@ class NepaliNumbers {
     }
     
     number(numbers) {
-        console.log('@nepalinumbers/numbers - work in progress', numbers);
-        return numbers;
+        return neNumber(numbers);
     }
 }
 
