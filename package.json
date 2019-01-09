@@ -4,7 +4,6 @@
   "description": "This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -19,17 +18,14 @@
     "nepali",
     "numbers",
     "number conversion",
-    "nepali date conversion"
+    "nepali date conversion",
+    "nepali unicode",
+    "devanagarik"
   ],
   "author": "DanfeBooks™ <webmasters@danfebooks.com> (https://www.danfebooks.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danfebooks/nepalinumbers/issues"
   },
-  "homepage": "https://github.com/danfebooks/nepalinumbers#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3"
-  }
+  "homepage": "https://github.com/danfebooks/nepalinumbers#readme"
 }
