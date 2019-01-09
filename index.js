@@ -11,4 +11,27 @@ import neYear from './src/neYear';
 import neMonth from './src/neWeek';
 import neWeek from './src/neWeek';
 
-export { neYear, neMonth, neWeek };
+class NepaliNumbers {
+    constructor() {
+        this.VERSION = '0.1.0';
+    }
+
+    year(numbers) {
+        return neYear(numbers);
+    }
+    
+    month(numbers) {
+        return neMonth(numbers);
+    }
+    
+    week(numbers) {
+        return neWeek(numbers)
+    }
+    
+    number(numbers) {
+        console.log('@nepalinumbers/numbers - work in progress', numbers);
+        return numbers;
+    }
+}
+
+export default new NepaliNumbers();

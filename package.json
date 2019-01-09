@@ -1,5 +1,5 @@
 {
-  "name": "@shekhardesigner/nepalinumbers",
+  "name": "@danfebooks/nepalinumbers",
   "version": "0.1.0",
   "description": "This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shekhardesigner/nepalinumbers.git"
+    "url": "git+https://github.com/danfebooks/nepalinumbers.git"
   },
   "keywords": [
     "nepali",
@@ -21,12 +21,12 @@
     "number conversion",
     "nepali date conversion"
   ],
-  "author": "Shekhar K. Sharma <itsmes.sh@gmail.com> (http://www.shekhardesigner.com)",
+  "author": "DanfeBooks™ <webmasters@danfebooks.com> (https://www.danfebooks.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shekhardesigner/nepalinumbers/issues"
+    "url": "https://github.com/danfebooks/nepalinumbers/issues"
   },
-  "homepage": "https://github.com/shekhardesigner/nepalinumbers#readme",
+  "homepage": "https://github.com/danfebooks/nepalinumbers#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",

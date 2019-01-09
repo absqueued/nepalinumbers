@@ -1,18 +1,23 @@
 # nepalinumbers
 This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.
 
-## How to use
+## How To
 
-`import nepalinumbers from 'nepalinumbers'`;
+```
+import nepalinumbers from 'nepalinumbers';
 
-After this 'NepaliDates' object will be available for you to use. Example:
+const numberToConvert = 2019;
 
-	<script>
-		var nepYear = NepaliDates.getNumber(2072),
-			nepMonth = NepaliDates.getMonth(6),
-			nepWeek =NepaliDates.getWeek(6),
-			nepDay = NepaliDates.getNumber(8);
+const convertedValue = nepalinumbers.year(numberToConvert);
+// => २०१९
 
-		console.log(nepYear, nepMonth, nepDay, nepWeek);
-		//Expected output: **२०७२ असोज ८ शुक्रबार**
-	</script>
+```
+
+## Methods
+| Method | Description  |
+|---|---|
+| year | Transforms/Converts 4 digit year to Nepali unicode  |
+| month |   |
+| week |   |
+| numbrs |   |
+
