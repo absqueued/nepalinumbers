@@ -1,6 +1,6 @@
 {
   "name": "@danfebooks/nepalinumbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,11 @@
   "keywords": [
     "nepali",
     "numbers",
-    "number conversion",
-    "nepali date conversion",
+    "nepali number conversion",
+    "nepali week conversion",
+    "nepali month conversion",
     "nepali unicode",
+    "english to nepali",
     "devanagari"
   ],
   "author": "DanfeBooks™ <webmasters@danfebooks.com> (https://www.danfebooks.com)",

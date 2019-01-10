@@ -22,8 +22,12 @@ import nepalinumbers from '@danfebooks/nepalinumbers';
 import { week, month } from '@danfebooks/nepalinumbers';
 
 const yearToConvert = 2019;
-const convertedYear = nepalinumbers.number(yearToConvert);
+const convertedYear = nepalinumbers.numbers(yearToConvert);
 // => २०१९
+
+const numberToConvert = 35476865;
+const convertedNumber = nepalinumbers.numbers(numberToConvert);
+// => ३५४७६८६५
 
 const monthToConvert = 12;
 const convertedMonth = nepalinumbers.month(monthToConvert);
@@ -32,11 +36,6 @@ const convertedMonth = nepalinumbers.month(monthToConvert);
 const weekToConvert = 2;
 const convertedWeek = nepalinumbers.week(weekToConvert);
 // => सोमबार
-
-const numberToConvert = 35476865;
-const convertedNumber = nepalinumbers.number(numberToConvert);
-// => ३५४७६८६५
-
 
 ```
 
@@ -49,7 +48,7 @@ Babel or any ES6 Transpiler or Webpack within your App. The browser version of m
 |---|---|---|
 | month | 'all' or Integer | Translate/Converts month number to Nepali Unicode |
 | week | 'all' or Integer | Translate/Converts week number to Nepali Unicode |
-| number | n/a | Transforms/Converts numbers to Nepali Unicode |
+| numbers | n/a | Transforms/Converts numbers to Nepali Unicode |
 
 ## Examples
 ```
@@ -57,6 +56,6 @@ const nepaliMonths = nepalinumbers.month('all');
 // => ['बैशाख','जेठ','असार','साउन','भदौ','असोज','कार्तिक','मङि्सर','पुष','माघ','फागुन','चैत']
 ```
 ```
-const nepaliWeeks = nepalinumbers.weeks('all');
+const nepaliWeeks = nepalinumbers.week('all');
 // => ['आइतबार','सोमबार','मङ्गलबार','बुधबार','बिहिबार','शुक्रबार','शनिबार']
 ```
