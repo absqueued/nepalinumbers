@@ -3,35 +3,31 @@
  * Converts to Nepali Unicode
  * Licensed under the MIT
  * Author: @danfebooks
- * Version: 0.1.0
+ * Version: 0.2.0
  * This JavaScript utility is written to convert English integers into Nepali integers with week and month name. 
  */
 
-import neYear from './src/neYear';
-import neMonth from './src/neMonth';
-import neWeek from './src/neWeek';
-import neNumber from './src/neNumber';
+import month from './src/month';
+import week from './src/week';
+import numbers from './src/numbers';
 
 class NepaliNumbers {
     constructor() {
-        this.VERSION = '0.1.0';
-    }
-
-    year(numbers) {
-        return neYear(numbers);
+        this.VERSION = '0.2.0';
     }
     
     month(numbers) {
-        return neMonth(numbers);
+        return month(numbers);
     }
     
     week(numbers) {
-        return neWeek(numbers)
+        return week(numbers)
     }
     
-    number(numbers) {
-        return neNumber(numbers);
+    numbers(number) {
+        return numbers(number);
     }
 }
 
 export default new NepaliNumbers();
+export { month, week, numbers };
