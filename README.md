@@ -47,7 +47,6 @@ Babel or any ES6 Transpiler or Webpack within your App. The browser version of m
 ## Methods
 | Method | Options | Description  |
 |---|---|---|
-| year | n/a |Transforms/Converts 4 digit year to Nepali Unicode  |
 | month | 'all' or Integer | Translate/Converts month number to Nepali Unicode |
 | week | 'all' or Integer | Translate/Converts week number to Nepali Unicode |
 | number | n/a | Transforms/Converts numbers to Nepali Unicode |
