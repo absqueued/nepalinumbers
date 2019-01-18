@@ -15,12 +15,13 @@
 
 function numbers (digit) {
     
-    if(!digit) {
+    const isdigit = parseInt(digit, 10);
+    if(typeof isdigit !== "number") {
         console.log("@numbers: Yuck, got nothing");
         return false;
     }
 
-    if(isNaN(parseInt(digit, 10))) {
+    if(isNaN(isdigit)) {
         console.log("@numbers: Commooon, give it a numbers");
         return false;
     }
