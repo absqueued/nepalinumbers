@@ -7,6 +7,8 @@ Bonus: Converts month and week numbers into Nepali Unicode names.
 ## Why?
 So that you don't need third-party API integration like Google Translation just to convert a few strings. Makes life easier and app lighter.
 
+[![npm version](https://badge.fury.io/js/%40danfebooks%2Fnepalinumbers.svg)](https://badge.fury.io/js/%40danfebooks%2Fnepalinumbers)
+
 ## What it doesn't do
 It doesn't convert dates or numbers from AD to BS or vice-versa;
 

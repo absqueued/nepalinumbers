@@ -13,7 +13,7 @@ import numbers from './src/numbers';
 
 class NepaliNumbers {
     constructor() {
-        this.VERSION = '0.2.0';
+        this.VERSION = '1.0.2';
     }
     
     month(numbers) {
