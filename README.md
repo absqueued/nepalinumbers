@@ -1,5 +1,6 @@
 # nepalinumbers
-This JavaScript utility is written to convert English integers into Nepali integers with week and month names in Nepali script.
+A JavaScript utility to convert English integers into Nepali integers and useful strings with week and month names in the Nepali locale.
+
 <br /><br />
 Bonus: Converts month and week numbers into Nepali Unicode names.
 
