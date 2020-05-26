@@ -3,7 +3,7 @@
  * Converts to Nepali Unicode
  * Licensed under the MIT
  * Author: @danfebooks
- * Version: 1.0.0
+ * Version: 1.0.2
  * This JavaScript utility is written to convert English integers into Nepali integers with week and month name. 
  */
 
