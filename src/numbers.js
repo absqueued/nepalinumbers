@@ -48,7 +48,7 @@ function numbers (digit) {
     if(digit % 1 !== 0) {
       digitToConvert = digit.toString().split('.');    
       const digitToConvertFirst = digitToConvert[0].toString().split(''); // numbers befor decimal
-      const digitToConvertLast = digitToConvert[0].toString().split(''); // numbers after decimal
+      const digitToConvertLast = digitToConvert[1].toString().split(''); // numbers after decimal
 
       const outputFirst = output(digitToConvertFirst);
       const outputLast = output(digitToConvertLast);
