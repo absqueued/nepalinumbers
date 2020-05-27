@@ -26,7 +26,7 @@ function numbers (digit) {
         return false;
     }
 
-    const nepaliNumberss = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+    const nepaliNumberss = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];    
     let digitToConvert = [];
     let output = (digits) => digits.map(num => {
         let i = 0;
@@ -38,22 +38,23 @@ function numbers (digit) {
         }
       });
 
+    const isWholeNumber = digit.indexOf('.') == -1; 
     // is whole number
-    if(digit % 1 === 0) {
+    if(isWholeNumber) {
       digitToConvert = digit.toString().split('');
       output = output(digitToConvert);
     }
 
     // is decimal number
-    if(digit % 1 !== 0) {
-      digitToConvert = digit.toString().split('.');    
+    if(!isWholeNumber) {
+      digitToConvert = digit.toString().split('.');
       const digitToConvertFirst = digitToConvert[0].toString().split(''); // numbers befor decimal
       const digitToConvertLast = digitToConvert[1].toString().split(''); // numbers after decimal
 
       const outputFirst = output(digitToConvertFirst);
       const outputLast = output(digitToConvertLast);
 
-      output = outputFirst.concat(['.'], outputLast)
+      output = outputFirst.concat(['.'], outputLast);
 
     }
 
