@@ -26,37 +26,19 @@ function numbers (digit) {
         return false;
     }
 
-    const nepaliNumberss = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
-    let digitToConvert = [];
-    let output = (digits) => digits.map(num => {
-        let i = 0;
-        const l = parseInt(num, 10);
-        for (i; i < 10; i += 1) {
-          if (i === l) {
-              return nepaliNumberss[i];
-          }
-        }
-      });
+    const nepaliNumberss = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];    
 
-    // is whole number
-    if(digit % 1 === 0) {
-      digitToConvert = digit.toString().split('');
-      output = output(digitToConvert);
-    }
+    // convert eng number to nepali number
+    const digitToConvert = digit.toString().split('');
+    let output = digitToConvert.map((num, i) => {
+      return nepaliNumberss[i, num];
+    });
 
-    // is decimal number
-    if(digit % 1 !== 0) {
-      digitToConvert = digit.toString().split('.');    
-      const digitToConvertFirst = digitToConvert[0].toString().split(''); // numbers befor decimal
-      const digitToConvertLast = digitToConvert[1].toString().split(''); // numbers after decimal
-
-      const outputFirst = output(digitToConvertFirst);
-      const outputLast = output(digitToConvertLast);
-
-      output = outputFirst.concat(['.'], outputLast)
-
-    }
-
+    // check number is float or negative
+    const digitDecimal = digitToConvert.indexOf('.');
+    const digitNegative = digitToConvert.indexOf('-');
+    output[digitDecimal] = '.';
+    output[digitNegative] = '-';
 
     return output.join('');
 }
